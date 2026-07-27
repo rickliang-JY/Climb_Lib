@@ -10,7 +10,7 @@ function splitChars(text: string): string[] {
 }
 
 /**
- * Competition S0 — full-bleed 80vh hero over /comp-ifsc-wall.png.
+ * Competition S0 — full-bleed 80vh hero over /comp-ifsc-wall.webp.
  * GSAP-only component tree (no Framer Motion here).
  * Opts out of Layout's nav offset with -mt-16 so the nav overlays the image.
  */
@@ -63,7 +63,7 @@ export default function CompHero() {
     >
       <img
         ref={bgRef}
-        src={asset('comp-ifsc-wall.png')}
+        src={asset('comp-ifsc-wall.webp')}
         alt={t('IFSC 世界杯比赛墙全景', 'IFSC World Cup competition wall panorama')}
         className="absolute inset-0 h-full w-full object-cover"
       />

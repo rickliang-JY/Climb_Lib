@@ -134,7 +134,12 @@ export default function DisciplineChapter({ d, index }: DisciplineChapterProps) 
               <motion.img
                 src={meta.image}
                 alt={`${d.nameEn} — ${d.nameZh}`}
-                loading="lazy"
+                /* Deliberately NOT lazy. The wrapper above starts at
+                   clip-path: inset(0 100% 0 0), i.e. zero visible area, and
+                   Framer Motion applies that on the very first render. A lazy
+                   image with no visible area is never fetched, and Chrome does
+                   not reliably retry once the clip animates open, so every
+                   chapter image stayed blank. These are ~150 KB WebP files. */
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                 initial={{ scale: 1.06 }}
                 whileInView={{ scale: 1 }}

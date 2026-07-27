@@ -107,7 +107,7 @@ const CARDS = [
     titleEn: 'History',
     descZh: '从阿尔卑斯登山绳索到奥运金牌 — 160 年的垂直进化。',
     descEn: 'From alpine hemp ropes to Olympic gold — 160 years of vertical evolution.',
-    img: asset('home-history-teaser.png'),
+    img: asset('home-history-teaser.webp'),
     to: '/history',
     span: 'lg:col-span-7',
     big: true,
@@ -118,7 +118,7 @@ const CARDS = [
     titleEn: 'Disciplines',
     descZh: '抱石、运动、传统、大墙、独攀… 十种方式读懂一面岩壁。',
     descEn: 'Bouldering, sport, trad, big wall, solo… ten ways to read a cliff.',
-    img: asset('home-boulder-teaser.png'),
+    img: asset('home-boulder-teaser.webp'),
     to: '/disciplines',
     span: 'lg:col-span-5',
     big: true,
@@ -129,7 +129,7 @@ const CARDS = [
     titleEn: 'Competition',
     descZh: 'IFSC 三大赛制与奥运之路。',
     descEn: 'The three IFSC formats and the road to the Olympics.',
-    img: asset('comp-ifsc-wall.png'),
+    img: asset('comp-ifsc-wall.webp'),
     to: '/competition',
     span: 'lg:col-span-3',
     big: false,
@@ -151,7 +151,7 @@ const CARDS = [
     titleEn: 'Grades & Gear',
     descZh: 'YDS ↔ French ↔ V 换算与装备图鉴。',
     descEn: 'YDS ↔ French ↔ V conversions and the gear catalog.',
-    img: asset('gear-shoes.png'),
+    img: asset('gear-shoes.webp'),
     to: '/grades',
     span: 'lg:col-span-3',
     big: false,
@@ -162,7 +162,7 @@ const CARDS = [
     titleEn: '3D Wall & Holds',
     descZh: '旋转一面墙，点击每个岩点。',
     descEn: 'Spin a wall. Click every hold.',
-    img: asset('home-3d-teaser.png'),
+    img: asset('home-3d-teaser.webp'),
     to: '/wall-3d',
     span: 'lg:col-span-3',
     big: false,
@@ -383,7 +383,7 @@ function QuoteBanner() {
   return (
     <section ref={ref} className="relative overflow-hidden">
       <motion.div className="absolute inset-[-14%] will-change-transform" style={{ y: bgY }}>
-        <img src={asset('hist-era-7-olympic.png')} alt="" className="h-full w-full object-cover" loading="lazy" />
+        <img src={asset('hist-era-7-olympic.webp')} alt="" className="h-full w-full object-cover" loading="lazy" />
       </motion.div>
       <div className="absolute inset-0 bg-ink/50" />
       <div className="relative z-10 mx-auto flex w-full max-w-[1440px] flex-col items-center px-6 py-28 text-center md:px-10 md:py-40 lg:px-16">

@@ -109,7 +109,7 @@
   }
   /* Very subtle granite noise overlay utility */
   .texture-granite {
-    background-image: url('/texture-granite.png');
+    background-image: url('/texture-granite.webp');
     background-size: 512px 512px;
   }
   /* Marquee: pause on hover */

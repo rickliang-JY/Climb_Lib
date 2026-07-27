@@ -26,7 +26,7 @@ export interface DisciplineMeta {
 
 export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
   bouldering: {
-    image: asset('disc-bouldering.png'),
+    image: asset('disc-bouldering.webp'),
     risk: 3,
     beginner: 5,
     focusZh: '爆发力 · 指力',
@@ -37,7 +37,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'See bouldering in competition',
   },
   'sport-climbing': {
-    image: asset('disc-sport.png'),
+    image: asset('disc-sport.webp'),
     risk: 2,
     beginner: 3,
     focusZh: '耐力 · 红点心理',
@@ -48,7 +48,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Back to the 1980s bolting revolution',
   },
   'traditional-climbing': {
-    image: asset('disc-trad.png'),
+    image: asset('disc-trad.webp'),
     risk: 4,
     beginner: 2,
     focusZh: '耐力 · 判断力',
@@ -59,7 +59,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Trad grades & protection gear',
   },
   'lead-climbing': {
-    image: asset('disc-lead.png'),
+    image: asset('disc-lead.webp'),
     risk: 2,
     beginner: 3,
     focusZh: '耐力 · 节奏分配',
@@ -70,7 +70,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'How lead comps are scored',
   },
   'speed-climbing': {
-    image: asset('disc-speed.png'),
+    image: asset('disc-speed.webp'),
     risk: 1,
     beginner: 4,
     focusZh: '爆发力 · 起跑反应',
@@ -91,7 +91,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Learn the belay vocabulary first',
   },
   'big-wall': {
-    image: asset('disc-bigwall.png'),
+    image: asset('disc-bigwall.webp'),
     risk: 5,
     beginner: 1,
     focusZh: '意志 · 后勤管理',
@@ -112,7 +112,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Aid climbing vocabulary',
   },
   'free-solo': {
-    image: asset('disc-freesolo.png'),
+    image: asset('disc-freesolo.webp'),
     risk: 5,
     beginner: 1,
     focusZh: '心理控制 · 精确度',
@@ -123,7 +123,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Term: Free Solo vs. Free Climbing',
   },
   'deep-water-solo': {
-    image: asset('disc-deepwater.png'),
+    image: asset('disc-deepwater.webp'),
     risk: 3,
     beginner: 2,
     focusZh: '爆发力 · 胆魄',
@@ -154,7 +154,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Mixed grades: the M scale',
   },
   'indoor-gym': {
-    image: asset('disc-indoor.png'),
+    image: asset('disc-indoor.webp'),
     risk: 1,
     beginner: 5,
     focusZh: '综合体能 · 可量化',
@@ -185,7 +185,7 @@ export const DISCIPLINE_META: Record<string, DisciplineMeta> = {
     linkEn: 'Slab & face vocabulary',
   },
   'alpine-climbing': {
-    image: asset('disc-alpine.png'),
+    image: asset('disc-alpine.webp'),
     risk: 5,
     beginner: 1,
     focusZh: '综合能力 · 连环决策',

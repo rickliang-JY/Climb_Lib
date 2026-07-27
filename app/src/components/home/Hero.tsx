@@ -76,7 +76,7 @@ export default function Hero() {
     <section ref={rootRef} className="relative -mt-16 min-h-[100dvh] overflow-hidden bg-ink">
       {/* Background */}
       <div ref={bgRef} className="absolute inset-0 will-change-transform">
-        <img src={asset('hero-wall.png')} alt="" className="h-full w-full object-cover" />
+        <img src={asset('hero-wall.webp')} alt="" className="h-full w-full object-cover" />
       </div>
       {/* Ink gradient overlay (bottom 60% -> transparent) + granite noise */}
       <div

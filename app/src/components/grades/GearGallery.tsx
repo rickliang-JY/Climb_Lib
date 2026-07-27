@@ -27,19 +27,19 @@ const CATEGORIES: { id: 'all' | Category; zh: string; en: string }[] = [
   { id: 'bigwall', zh: '大岩壁', en: 'Big Wall' },
 ];
 
-/** One illustration per category (public/gear-*.png) */
+/** One illustration per category (public/gear-*.webp) */
 const CATEGORY_IMAGE: Record<Category, string> = {
-  shoes: asset('gear-shoes.png'),
-  rope: asset('gear-rope.png'),
-  belay: asset('gear-belay.png'),
-  protection: asset('gear-protection.png'),
-  'clothing-acc': asset('gear-chalk.png'),
-  bigwall: asset('gear-harness.png'),
+  shoes: asset('gear-shoes.webp'),
+  rope: asset('gear-rope.webp'),
+  belay: asset('gear-belay.webp'),
+  protection: asset('gear-protection.webp'),
+  'clothing-acc': asset('gear-chalk.webp'),
+  bigwall: asset('gear-harness.webp'),
 };
 
 /** Item-level overrides where the illustration matches a specific item */
 const ITEM_IMAGE: Record<string, string> = {
-  harness: asset('gear-harness.png'),
+  harness: asset('gear-harness.webp'),
 };
 
 function gearImage(item: Gear): string {

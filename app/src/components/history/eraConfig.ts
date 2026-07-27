@@ -36,33 +36,33 @@ interface EraMeta {
 const ERA_META: EraMeta[] = [
   {
     era: 'origins',
-    image: asset('hist-era-1-alpine.png'),
-    secondaryImage: asset('hist-era-2-dolomites.png'),
+    image: asset('hist-era-1-alpine.webp'),
+    secondaryImage: asset('hist-era-2-dolomites.webp'),
     termNames: ['Free Climbing', 'Aid Climbing', 'Multi-Pitch'],
   },
   {
     era: 'golden',
-    image: asset('hist-era-3-yosemite.png'),
+    image: asset('hist-era-3-yosemite.webp'),
     termNames: ['YDS', 'Portaledge', 'Nut'],
   },
   {
     era: 'free-revolution',
-    image: asset('hist-era-4-free.png'),
+    image: asset('hist-era-4-free.webp'),
     termNames: ['Clean Climbing', 'Redpoint', 'Cam'],
   },
   {
     era: 'sport',
-    image: asset('hist-era-5-sport.png'),
+    image: asset('hist-era-5-sport.webp'),
     termNames: ['Bolt', 'Quickdraw', 'Hangdog'],
   },
   {
     era: 'modern',
-    image: asset('hist-era-6-comp.png'),
+    image: asset('hist-era-6-comp.webp'),
     termNames: ['V-Scale', 'Campus', 'Project'],
   },
   {
     era: 'olympic',
-    image: asset('hist-era-7-olympic.png'),
+    image: asset('hist-era-7-olympic.webp'),
     dark: true,
     termNames: ['Free Solo', 'Beta', 'Volume'],
   },
