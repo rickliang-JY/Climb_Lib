@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- THE CRAG ARCHIVE logo: climbing-hold silhouette with mountain negative space. Single ink color; invert via CSS filter (brightness-0 invert) for use on dark backgrounds. -->
+  <style>svg { color: #2B2620; }</style>
+  <g fill="none" stroke="currentColor" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <!-- hold outline: irregular rounded bolt-on hold shape -->
+    <path d="M100 18 C138 18 176 52 178 96 C180 140 148 182 100 182 C52 182 20 140 22 96 C24 52 62 18 100 18 Z"/>
+  </g>
+  <!-- mountain negative space -->
+  <path fill="currentColor" d="M42 138 L84 74 L104 104 L122 78 L158 138 Z"/>
+  <!-- bolt hole -->
+  <circle cx="100" cy="46" r="9" fill="currentColor"/>
+</svg>

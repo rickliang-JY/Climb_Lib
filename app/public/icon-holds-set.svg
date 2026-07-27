@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256" width="512" height="256">
+  <!-- 8 climbing hold type line icons, stone-tone stroke. Each icon lives in a 128x128 cell. Symbols allow external <use href="/icon-holds-set.svg#jug"> references. -->
+  <defs>
+    <g id="hold-jug" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- jug: big incut bucket -->
+      <path d="M28 48 C28 34 44 24 64 24 C84 24 100 34 100 48 L100 62 C100 74 92 80 84 76 C72 70 56 70 44 76 C36 80 28 74 28 62 Z"/>
+      <path d="M40 50 C48 44 80 44 88 50"/>
+      <circle cx="64" cy="96" r="5"/>
+    </g>
+    <g id="hold-crimp" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- crimp: thin shallow edge -->
+      <path d="M30 60 L34 40 L94 40 L98 60 Z"/>
+      <path d="M40 52 L88 52"/>
+      <path d="M30 60 L30 78 M98 60 L98 78"/>
+      <circle cx="64" cy="92" r="5"/>
+    </g>
+    <g id="hold-sloper" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- sloper: smooth rounded dome -->
+      <path d="M28 84 C28 52 42 32 64 32 C86 32 100 52 100 84"/>
+      <path d="M44 84 C44 64 52 52 64 52 C76 52 84 64 84 84"/>
+      <circle cx="64" cy="98" r="5"/>
+    </g>
+    <g id="hold-pocket" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- pocket: blob with finger holes -->
+      <path d="M30 56 C30 38 46 26 64 26 C82 26 98 38 98 56 C98 74 82 86 64 86 C46 86 30 74 30 56 Z"/>
+      <circle cx="52" cy="52" r="7"/>
+      <circle cx="74" cy="60" r="7"/>
+      <circle cx="64" cy="98" r="5"/>
+    </g>
+    <g id="hold-pinch" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- pinch: narrow vertical block squeezed from both sides -->
+      <path d="M50 26 L78 26 L84 86 L44 86 Z"/>
+      <path d="M28 46 C36 52 40 56 44 60 M100 46 C92 52 88 56 84 60"/>
+      <path d="M28 34 L28 60 M100 34 L100 60"/>
+      <circle cx="64" cy="98" r="5"/>
+    </g>
+    <g id="hold-undercling" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- undercling: lip gripped from below -->
+      <path d="M30 44 L98 44 L98 58 L46 58 C38 58 30 52 30 44 Z"/>
+      <path d="M40 66 C52 72 76 72 92 64"/>
+      <path d="M30 44 L30 34 L98 34 L98 44"/>
+      <circle cx="64" cy="88" r="5"/>
+    </g>
+    <g id="hold-sidepull" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- sidepull: vertical edge pulled sideways -->
+      <path d="M52 28 L74 28 L74 84 L52 84 Z"/>
+      <path d="M74 40 C88 46 92 56 92 66"/>
+      <path d="M40 44 L52 44 M40 68 L52 68"/>
+      <circle cx="63" cy="98" r="5"/>
+    </g>
+    <g id="hold-foothold" fill="none" stroke="#B8A88F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- foothold: small screw-on chip -->
+      <path d="M36 56 C36 44 48 36 64 36 C80 36 92 44 92 56 C92 62 88 66 82 66 L46 66 C40 66 36 62 36 56 Z"/>
+      <circle cx="64" cy="52" r="4"/>
+      <circle cx="64" cy="84" r="5"/>
+    </g>
+  </defs>
+  <!-- 4x2 layout -->
+  <use href="#hold-jug" x="0" y="0"/>
+  <use href="#hold-crimp" x="128" y="0"/>
+  <use href="#hold-sloper" x="256" y="0"/>
+  <use href="#hold-pocket" x="384" y="0"/>
+  <use href="#hold-pinch" x="0" y="128"/>
+  <use href="#hold-undercling" x="128" y="128"/>
+  <use href="#hold-sidepull" x="256" y="128"/>
+  <use href="#hold-foothold" x="384" y="128"/>
+</svg>
