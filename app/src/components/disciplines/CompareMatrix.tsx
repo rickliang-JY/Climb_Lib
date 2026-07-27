@@ -69,8 +69,8 @@ export default function CompareMatrix() {
           </h2>
           <p className="mt-4 max-w-[65ch] leading-[1.85] text-ink-soft">
             {t(
-              '点击任意一行跳回对应章节。圆点评级基于馆内档案综合评估：装备门槛按装备清单长度折算，风险与入门友好度为编辑评级（1–5）。',
-              'Click any row to jump back to its chapter. Dot ratings are assessed from the archive: gear barrier derives from the gear-list length; risk and beginner-friendliness are editorial ratings (1–5).',
+              '点击任意一行，跳到下面对应类型的详解章节。圆点评级基于馆内档案综合评估：装备门槛按装备清单长度折算，风险与入门友好度为编辑评级（1–5）。',
+              'Click any row to jump down to that discipline’s chapter. Dot ratings are assessed from the archive: gear barrier derives from the gear-list length; risk and beginner-friendliness are editorial ratings (1–5).',
             )}
           </p>
         </motion.div>

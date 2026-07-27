@@ -107,8 +107,8 @@ export default function DisciplinesPage() {
         label="DISCIPLINES / 类型全解"
         titleZh="一面岩壁，十六种读法。"
         titleEn="One wall, sixteen ways to climb it."
-        introZh="从 4 米高的抱石垫到 900 米的优胜美地大墙；从 15 秒的速度冲刺到数周的大墙远征 —— 攀岩不是一项运动，而是一个家族。本卷收录 16 种类型，每一种都附标本参数卡，并在卷末汇总为一张对比矩阵。"
-        introEn="From four-meter boulder pads to 900-meter Yosemite big walls; from 15-second speed sprints to week-long vertical expeditions — climbing is not one sport but a family. This volume catalogues sixteen disciplines, each with its own specimen card, gathered at the end into a single comparison matrix."
+        introZh="从 4 米高的抱石垫到 900 米的优胜美地大墙；从 15 秒的速度冲刺到数周的大墙远征 —— 攀岩不是一项运动，而是一个家族。先用一张对比矩阵纵览 16 种类型，再逐卷翻阅它们各自的标本参数卡。"
+        introEn="From four-meter boulder pads to 900-meter Yosemite big walls; from 15-second speed sprints to week-long vertical expeditions — climbing is not one sport but a family. Start with the comparison matrix for the whole family at a glance, then read the sixteen disciplines chapter by chapter, each with its own specimen card."
       >
         <motion.ul
           className="mt-10 flex max-w-[900px] flex-wrap gap-2.5"
@@ -131,15 +131,17 @@ export default function DisciplinesPage() {
         </motion.ul>
       </PageHero>
 
-      {/* S1 — 16 encyclopedia chapters, alternating editorial layout */}
+      {/* S1 — Comparison matrix. Sits before the chapters so the overview is
+          reachable without scrolling past 16 full-length entries; each row
+          links down into its chapter. */}
+      <CompareMatrix />
+
+      {/* S2 — 16 encyclopedia chapters, alternating editorial layout */}
       <div>
         {disciplines.map((d, i) => (
           <DisciplineChapter key={d.id} d={d} index={i} />
         ))}
       </div>
-
-      {/* S2 — Comparison matrix */}
-      <CompareMatrix />
 
       {/* S3 — Onward to 3D */}
       <OutroTo3D />
